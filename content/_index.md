@@ -163,32 +163,31 @@ sections:
     id: contact
     content:
       title: Contact
-      subtitle:
       text: |-
         Contact
-      # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      # address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+        # Contact (add or remove contact options as necessary)
+        email: test@example.org
+        # address:
+          street: 450 Serra Mall
+          city: Stanford
+          region: CA
+          postcode: '94305'
+          country: United States
+          country_code: US
+        # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        office_hours:
+          - 'Monday 10:00 to 13:00'
+          - 'Wednesday 09:00 to 10:00'
+        # Automatically link email and phone or display as text?
+        autolink: true
+        # Email form provider
+        form:
+          provider: netlify
+          formspree:
+            id:
+          netlify:
+            # Enable CAPTCHA challenge to reduce spam?
+            captcha: false
     design:
       columns: '2'
 ---
